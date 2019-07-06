@@ -33,6 +33,17 @@ Primary use:
 .container {max-width: 1200px;}
 
 
+/*/////////////// 
+MY STYLES
+*/
+.brand{
+  color: #e4a804;
+  font-weight: 600;
+  font-size: 24px;
+
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ Form ]*/
@@ -195,7 +206,7 @@ Primary use:
 
 .m1-txt2 {
   font-family: Poppins-Regular;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   line-height: 1.333333;
 }
@@ -317,17 +328,17 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background: #7579ff;
-  background: -webkit-linear-gradient(bottom, #b224ef, #7579ff);
-  background: -o-linear-gradient(bottom, #b224ef, #7579ff);
-  background: -moz-linear-gradient(bottom, #b224ef, #7579ff);
-  background: linear-gradient(bottom, #b224ef, #7579ff);
-  opacity: 0.9;
+  background: #000000;
+  /*background: -webkit-linear-gradient(bottom, #b224ef, #000000);
+  background: -o-linear-gradient(bottom, #b224ef, #000000);
+  background: -moz-linear-gradient(bottom, #b224ef, #000000);
+  background: linear-gradient(bottom, #b224ef, #000000);*/
+  opacity: 0.6;
 }
 
 /*---------------------------------------------*/
 .how-btn1 {
-  background-color: #57b846;
+  background-color: #e4a804;
   padding-right: 20px;
   padding-left: 20px;
   position: relative;
