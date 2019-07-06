@@ -77,10 +77,12 @@ MY STYLES
   color: rgba(87,184,70, 0.6);
 }
 
+/*
 .input100:focus + .focus-input100 {
   -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
   animation: anim-shadow 0.5s ease-in-out forwards;
 }
+*/
 
 @-webkit-keyframes anim-shadow {
   to {
@@ -200,7 +202,7 @@ MY STYLES
 .m1-txt1 {
   font-family: Poppins-Regular;
   font-size: 16px;
-  color: #57b846;
+  color: #000000;
   line-height: 1.333333;
 }
 
@@ -353,11 +355,11 @@ MY STYLES
   height: 100%;
   top: 0;
   left: 0;
-  background: #7579ff;
-  background: -webkit-linear-gradient(top, #b224ef, #7579ff);
+  background: #000000;
+  /*background: -webkit-linear-gradient(top, #b224ef, #7579ff);
   background: -o-linear-gradient(top, #b224ef, #7579ff);
   background: -moz-linear-gradient(top, #b224ef, #7579ff);
-  background: linear-gradient(top, #b224ef, #7579ff);
+  background: linear-gradient(top, #b224ef, #7579ff);*/
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
