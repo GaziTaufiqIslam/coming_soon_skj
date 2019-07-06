@@ -50,8 +50,10 @@
 				</p>
 				<p class="txt-center m1-txt2 p-b-60">Our full website is coming soon, follow us to get notified.</p>
 
-				<form class="w-full flex-w flex-c-m validate-form" name="subscription" method="POST" data-netlify="true">
-
+				<form class="w-full flex-w flex-c-m validate-form" name="subscription" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+					<p class="hidden">
+						<label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+					  </p>
 					<div class="wrap-input100 validate-input m-b-20" data-validate = "Valid email is required: ex@abc.xyz">
 						<input class="input100 placeholder0 m1-txt1" type="text" name="email" placeholder="Email Address">
 						<span class="focus-input100"></span>
